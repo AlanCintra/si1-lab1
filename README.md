@@ -1,1 +1,1 @@
-Este repositório contém meu código para o lab1 da cadeira de si1 que tem prazo de entrega até dia 28/10.
+Este repositório contém meu código para o lab1 que tem prazo de entrega até dia 28/10.
