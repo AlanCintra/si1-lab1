@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Razões para se matricular em SI1 - Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="_css/cadastro.css"/>
+</head>
+<body>
+<div id="interface">
+    <form method="get" action="obrigado.html" id="fContato">
+        <fieldset id="usuario"><legend>Identificação do Usuário</legend>
+            <p>Nome: <input type="text" name="tNome" id="cNome" size="30" maxlength="40" placeholder="Nome Completo"/></p>
+            <p>Senha: <input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 dígitos"/></p>
+            <p>E-mail: <input type="email" name="tMail" id="cMail" size="30" maxlength="40"/></p>
+            <fieldset id="sexo"><legend>Sexo:</legend>
+                <input type="radio" name="tSexo" id="cMasc"/> <label for="cMasc">Masculino</label><br/>
+                <input type="radio" name="tSexo" id="cFem"/> <label for="cFem">Feminino</label>
+            </fieldset>
+            <p>Data de Nascimento: <input type="date" name="tNasc" id="cNasc"/></p>
+        </fieldset>
+        <input type="submit" value="Cadastre-se"/>
+    </form>
+</div>
+</body>
+</html>
