@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Razões para se matricular em SI1 - Cadastro</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <form class="form-horizontal" method="get" action="obrigado.html"><legend>Informações do Usuário</legend>
+            <div class="control-group">
+                <label class="control-label" for="tNome">Nome</label>
+                <div class="controls">
+                    <input type="text" id="tNome" placeholder="Nome Completo"/>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label" for="tSenha">Senha</label>
+                <div class="controls">
+                    <input type="password" id="tSenha" placeholder="8 dígitos" maxlength="8"/>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label" for="tMail">Email</label>
+                <div class="controls">
+                    <input type="email" id="tMail"/>
+                </div>
+            </div>
+
+            <div class="control-group">
+            <label class="control-label" for="cMasc">Sexo</label>
+                <div class="controls">
+                    <div class="radio inline">
+                        <input type="radio" name="tSexo" id="cMasc" value="opcao1"/>
+                        <label for="cMasc">Masculino</label>
+                    </div>
+                    <div class="radio inline">
+                        <input type="radio" name="tSexo" id="cFem" value="opcao2"/>
+                        <label for="cFem">Feminino</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label" for="tNasc">Data de Nascimento</label>
+                <div class="controls">
+                    <input type="date" id="tNasc"/>
+                </div>
+            </div>
+
+            <button class="btn btn-inverse" type="submit">Cadastre-se</button>
+
+        </form>
+    </div>
+
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
