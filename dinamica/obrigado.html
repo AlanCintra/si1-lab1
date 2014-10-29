@@ -6,6 +6,7 @@
     <title>Razões para se matricular em SI1 - Confirmação</title>
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
     <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/obrigado.css"/>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/funcoes.js"></script>
 
@@ -15,22 +16,23 @@
     <div class="container">
         <header class="row" id="cabecalho">
             <h1>Obrigado por se cadastrar!</h1>
-            <a href="index.html">Voltar à página inicial</a>
+            <p>Voltar à <a href="index.html">página inicial</a></p>
         </header>
-        <div class="row">
+        <div class="row" id="corpo">
             <div class="col-md-2">
                 <legend>Conteúdos que gostaria de aprender</legend>
-                <form class="form-horizontal">
+                <form class="form-horizontal" method="get">
                     <label>Conteúdo:</label>
-                    <input type="text" id="conteudo" value=""/>
+                    <input type="text" id="conteudo" placeholder="Dígite um conteúdo" value="" autofocus/>
                 </form>
-                <button class="btn btn-inverse" type="submit" id="adiciona">Adicionar</button>
             </div>
-            <div class="col-md-5"  id="conteudos">
-                <h3><ul></ul>Conteúdos a aprender</h3>
+            <div class="col-md-5">
+                <h3>Conteúdos a aprender</h3>
+                <ul id="conteudos"></ul>
             </div>
-            <div class="col-md-5" id="aprendidos">
-                <h3><ul></ul>Conteúdos já aprendidos</h3>
+            <div class="col-md-5">
+                <h3>Conteúdos já aprendidos</h3>
+                <ul id="aprendidos"></ul>
             </div>
         </div>
     </div>
