@@ -1,1 +1,1 @@
-Este repositório contém meu código para o lab1.
+Este repositório contem meu código para o Lab1.
